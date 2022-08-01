@@ -1,0 +1,42 @@
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+.container{
+    max-width: 438px;
+    margin: 0 auto;
+    background-color: gainsboro;
+    color: #fff;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    
+    background: linear-gradient(90deg,rgba(66,159,124,1) 0%, rgba(161,193,78,1) 100%);
+    padding: 2em 0;
+    align-items: center;
+}
+
+.contact-search{
+    font-size: 1.2em;
+    padding: .3em;
+    border-radius: 100px;
+    border: 1px solid #fff;
+    outline: none;
+}
+
+.button id{
+    display: flex;
+    justify-content: space-between;
+    align-items: 0;
+    padding: 0;
+}
+
+.icontainer{
+    max-width: 438px;
+    margin: 0 auto;
+    background-color: gainsboro;
+    color: #fff;
+    height: 100vh;
